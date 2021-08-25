@@ -9,7 +9,8 @@ body {
 }
 
 .banner {
-  background: red;
+  background: rgb(116, 79, 185);
+  padding: 10px;
   h1 {
     font-size: 50px;
   }
@@ -20,4 +21,16 @@ a {
   &:hover {
     color: black;
   }
+}
+.container{
+  padding: 20px;
+}
+
+.form-control{
+  display: inline-block;
+  width: 90%;
+}
+
+.card {
+  margin: 10px;
 }

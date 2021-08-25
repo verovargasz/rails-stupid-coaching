@@ -1,13 +1,15 @@
 <div class="card">
-<h3><%= @question %></h3>
-
-<h3>-you</h3>
+  <div class="card-body">
+    <p><%= @question %></p>
+    <p>-<i>you</i></p>
+  </div>
 </div>
 
 <div class="card">
-<h3><%= @answer %></h3>
-
-<h3>-your coach</h3>
+  <div class="card-body">
+    <p><%= @answer %></p>
+    <p>-<i>your coach</i></p>
+  </div>
 </div>
 
 <%= link_to("/ask") do %>
